@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <style>
+        .d1{
+            background-color: aqua;
+            padding: 100px 80px;
+        }
+    </style>
+    <body>
+        <script src="script.js"></script>
+        <div class="d1">
+            <h1>Details Form</h1>
+            <form id="con" method="post" action="">
+                <label for="fname">FirstName:</label><br>
+                <input type="text" id="fname" placeholder="Firstname" required><br><br>
+                <label for="lname">LastName:</label><br>
+                <input type="text" id="lname" placeholder="Lastname" required><br><br>
+                <label for="phno">PhoneNo:</label><br>
+                <input type="number" id="phno" placeholder="Phonenumber" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="Email" required><br><br>
+                <label for="country">Country:</label>
+                <select id="country">
+                    <option value="america">America</option>
+                    <option value="england">England</option>
+                    <option value="india">India</option>
+                    <option value="indonesia">Indonesia</option>
+                </select><br><br>
+                <label for="role">Role:</label><br>
+                <input type="radio" id="role"><b>Student</b><br>
+                <input type="radio" id="role"><b>Admin</b><br>
+                <input type="radio" id="role"><b>Faculty</b><br><br>
+                <label for="dob">DOB:</label><br>
+                <input type="date" id="dob" placeholder="Date of Birth" required><br><br>
+                <label for="pass">New Password</label><br>
+                <input type="text" id="pass" placeholder="Enter password" required><br><br>
+                <label for="cpass">Confirm Password</label><br>
+                <input type="password" id="cpass" placeholder="Confirm password" required><br><br>
+                <input type="checkbox" required>Accept terms and Conditions<br><br>
+                <input type="submit" text="Submit" onclick="valid()">
+            </form>
+        </div>
+    </body>
+</html>
