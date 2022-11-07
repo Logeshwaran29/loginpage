@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    border-radius: 0%;
+    background-color: bisque;
+}
+.d1{
+    padding: 50px 40%;
+    color: black;
+}.d1 h1{
+    text-align: center;
+}
+.f1{
+    background-color: tomato;
+    border-radius: 40px;
+    text-align: center;
+}
+.f1 label{
+    color: rgb(68, 0, 255);
+    border: 0ch;
+    background-color: tomato;
+}.f1 input{
+    background-color: aliceblue;
+}.f1 select{
+    background-color: aliceblue;
+}
